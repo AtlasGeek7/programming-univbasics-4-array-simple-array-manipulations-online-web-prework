@@ -21,7 +21,7 @@ end
 def shift_with_args(arr)
   arr.shift(2)
 end
-#=================================
+
 def using_concat(arr1, arr2)
   arr1.concat(arr2)
 end
@@ -42,6 +42,6 @@ def using_delete(arr, str)
   arr.delete(str)
 end
 
-def using_delete_at(arr)
-  arr.shift(2)
+def using_delete_at(arr,num)
+  arr.delete(num)
 end
